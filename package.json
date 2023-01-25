@@ -3,8 +3,8 @@
     "name": "startbootstrap-coming-soon",
     "version": "6.0.6",
     "scripts": {
-        "prestart": "npm install",
-        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
+        "prestart": "npm install && npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
+        "build": "",
         "build:assets": "node scripts/build-assets.js",
         "build:pug": "node scripts/build-pug.js",
         "build:scripts": "node scripts/build-scripts.js",
